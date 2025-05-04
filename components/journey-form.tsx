@@ -80,7 +80,7 @@ export function JourneyForm() {
             id="limitingBeliefs"
             rows={4}
             className="w-full p-3 rounded-md bg-card text-foreground border border-accent/30 resize-none"
-            placeholder="E.g., I don't deserve success, Money is hard to come by..."
+            placeholder="E.g., I don't deserve success, Money is hard to come by...."
             value={formData.limitingBeliefs}
             onChange={(e) => setFormData({ ...formData, limitingBeliefs: e.target.value })}
           />
